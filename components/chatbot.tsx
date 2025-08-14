@@ -53,7 +53,7 @@ export function Chatbot() {
 
     try {
       // Send to n8n webhook
-      const response = await fetch("https://prasad18.app.n8n.cloud/webhook-test/chat-bot", {
+      const response = await fetch("https://prasad18.app.n8n.cloud/webhook/chat-bot", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
