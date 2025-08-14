@@ -21,7 +21,7 @@ export function ContactSection() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     try {
-      const response = await fetch("https://prasad18.app.n8n.cloud/webhook-test/feedback", {
+      const response = await fetch("https://prasad18.app.n8n.cloud/webhook/feedback", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
