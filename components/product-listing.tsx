@@ -103,7 +103,7 @@ export function ProductListing() {
     setGrammarCheckError("")
 
     try {
-      const response = await fetch("https://prasad18.app.n8n.cloud/webhook-test/check", {
+      const response = await fetch("https://prasad18.app.n8n.cloud/webhook/form", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
