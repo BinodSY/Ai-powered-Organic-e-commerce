@@ -65,7 +65,7 @@ export function HeroSection() {
           <div className="relative">
             <div className="relative bg-white rounded-2xl shadow-2xl p-8 transform rotate-3 hover:rotate-0 transition-transform duration-300">
               <img
-                src="/placeholder.svg?height=400&width=500"
+                src="https://ucarecdn.com/3eb57ac2-87fd-4c3d-b835-0dd38e1a685a/Google_AI_Studio_20250816T12_21_57545Z.png"
                 alt="CO₂ Extraction Laboratory"
                 className="w-full h-80 object-cover rounded-lg"
               />
