@@ -120,8 +120,8 @@ export function ProductListing() {
       const data = await response.json()
 
       // Update the description with corrected text
-      if (data.correctedText || data.corrected_text || data.text) {
-        const correctedText = data.correctedText || data.corrected_text || data.text
+      if (data.correctedText || data.corrected_text || data.output) {
+        const correctedText = data.correctedText || data.corrected_text || data.output
         setFormData((prev) => ({ ...prev, description: correctedText }))
         setGrammarCheckError("")
       } else {
